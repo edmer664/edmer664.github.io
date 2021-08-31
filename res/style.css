@@ -1,0 +1,132 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: poppins,roboto,sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 140vh;
+  flex-direction: column;
+}
+
+.nav-container {
+  padding-left: 1%;
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  padding-right: 4%;
+  background-color: #03588e;
+  color: #fff;
+}
+.logo {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.nav-elem1 {
+  display: flex;
+  align-items: center;
+}
+.nav-elem {
+  display: flex;
+}
+.btn {
+  padding: 35px;
+  border: 0px;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 3px solid #0a5381;
+  color: #0a5381;
+
+	cursor: pointer;
+  transition: .7s;
+}
+.logo-name{
+	margin-left: 20px;
+}
+.nav-ops {
+  display: flex;
+}
+.main-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(
+      to bottom,
+			rgba(0, 0, 218, 0.481),
+      rgba(195, 0, 255, 0.363)
+      
+    ),
+    url("images/bkg2.jpg");
+  height: 100%;
+  color: #fff;
+  background-size: cover;
+  margin: 0;
+}
+.btn2{
+	border: 1px solid #0c6fb1;
+	border-radius:10px;
+	background-color:#0c6fb1;
+	padding:15px;
+	font-size:0.9rem;
+	color: #fff;
+}
+.btn2:hover{
+	background-color:#ffffff;
+	border-color:#083d61;
+  color: #0a5381;
+	cursor: pointer;
+	border-radius: 40%;
+	transition:.8s;
+}
+.burger-menu{
+  display:none;
+}
+.footer_container {
+  background-color: #083d61;
+  text-align: center;
+  color: #fff;
+  font-size:0.8rem;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width:630px){
+  .nav-ops{
+    display: none;
+  }
+  .nav-container{
+    padding-left: 0px;
+    width:100%; 
+  }
+  .burger-menu{
+    display:block;
+    display: flex;
+    align-items:center ;
+    justify-content:center;
+  }
+}
+@media only screen and (max-width:840px){
+  .child-elem-nav{
+    font-size: 0.8rem;
+    
+  }
+  .logo{
+    width:70px;
+    height:70px;
+  }
+  .logo-name{
+    font-size: 0.9rem;
+  }
+}
