@@ -57,31 +57,3 @@ body {
 }
 
 
-@media only screen and (max-width:630px){
-  .nav-ops{
-    display: none;
-  }
-  .nav-container{
-    padding-left: 0px;
-    width:100%; 
-  }
-  .burger-menu{
-    display:block;
-    display: flex;
-    align-items:center ;
-    justify-content:center;
-  }
-}
-@media only screen and (max-width:840px){
-  .child-elem-nav{
-    font-size: 0.8rem;
-    
-  }
-  .logo{
-    width:70px;
-    height:70px;
-  }
-  .logo-name{
-    font-size: 0.9rem;
-  }
-}
