@@ -8,14 +8,14 @@ homeBtn.onclick = function (){
     console.log("Navigated to Home")
 };
 admissBtn.onclick = function (){
-    location.href="/admission"
+    location.href="/admission.html"
 }
 coursesBtn.onclick = function (){
-    location.href="/courses"
+    location.href="/courses.html"
 }
 contactBtn.onclick = function (){
-    location.href="/contact"
+    location.href="/contact.html"
 }
 learnMoreBtn.onclick = function (){
-    location.href="/admission"
+    location.href="/admission.html"
 }
